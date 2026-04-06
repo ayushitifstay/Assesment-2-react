@@ -1,0 +1,34 @@
+.container {
+  padding: 30px;
+}
+
+.filters {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.filters input,
+.filters select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  padding: 15px;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}

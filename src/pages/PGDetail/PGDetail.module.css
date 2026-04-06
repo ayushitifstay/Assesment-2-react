@@ -1,0 +1,43 @@
+.container {
+  padding: 40px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.image {
+  height: 200px;
+  background-color: #cbd5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.details p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #38bdf8;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0ea5e9;
+}
+
+.back {
+  margin-top: 10px;
+  display: block;
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+}

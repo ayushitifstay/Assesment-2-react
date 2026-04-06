@@ -1,0 +1,25 @@
+.container {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(101, 95, 169);
+  margin-top: 40px;
+  height: 200px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.summary {
+  background: #f1f5f9;
+  padding: 20px;
+  border-radius: 8px;
+}
